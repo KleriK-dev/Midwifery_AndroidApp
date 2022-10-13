@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.midwiferyv1.fragments.mainFragments.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/monthsFragment"
+        android:name="com.example.midwiferyv1.fragments.mainFragments.MonthsFragment"
+        android:label="Τρίμηνα"
+        tools:layout="@layout/fragment_months" >
+        <action
+            android:id="@+id/action_monthsFragment_to_prwtoTriminoFragment"
+            app:destination="@id/prwtoTriminoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_monthsFragment_to_defteroTriminoFragment"
+            app:destination="@id/defteroTriminoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_monthsFragment_to_tritoTriminoFragment"
+            app:destination="@id/tritoTriminoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment3"
+        android:name="com.example.midwiferyv1.fragments.mainFragments.SettingsFragment"
+        android:label="Ρυθμίσεις"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/prwtoTriminoFragment"
+        android:name="com.example.midwiferyv1.fragments.trimina.PrwtoTriminoFragment"
+        android:label="Πρώτο Τρίμηνο"
+        tools:layout="@layout/fragment_prwto_trimino" >
+        <action
+            android:id="@+id/action_prwtoTriminoFragment_to_yperixografimaFragment"
+            app:destination="@id/yperixografimaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_prwtoTriminoFragment_to_eksetaseisFragment"
+            app:destination="@id/eksetaseisFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_prwtoTriminoFragment_to_diatrofiFragment"
+            app:destination="@id/diatrofiFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_prwtoTriminoFragment_to_sinithiesFragment"
+            app:destination="@id/sinithiesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_prwtoTriminoFragment_to_swmaFragment"
+            app:destination="@id/swmaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_prwtoTriminoFragment_to_simptomataFragment"
+            app:destination="@id/simptomataFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment
+        android:id="@+id/defteroTriminoFragment"
+        android:name="com.example.midwiferyv1.fragments.trimina.DefteroTriminoFragment"
+        android:label="Δεύτερο Τρίμηνο"
+        tools:layout="@layout/fragment_deftero_trimino" >
+        <action
+            android:id="@+id/action_defteroTriminoFragment_to_yperixografimaFragment"
+            app:destination="@id/yperixografimaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_defteroTriminoFragment_to_eksetaseisFragment"
+            app:destination="@id/eksetaseisFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_defteroTriminoFragment_to_diatrofiFragment"
+            app:destination="@id/diatrofiFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_defteroTriminoFragment_to_sinithiesFragment"
+            app:destination="@id/sinithiesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_defteroTriminoFragment_to_swmaFragment"
+            app:destination="@id/swmaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_defteroTriminoFragment_to_simptomataFragment"
+            app:destination="@id/simptomataFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/tritoTriminoFragment"
+        android:name="com.example.midwiferyv1.fragments.trimina.TritoTriminoFragment"
+        android:label="Τρίτο Τρίμηνο"
+        tools:layout="@layout/fragment_trito_trimino" >
+        <action
+            android:id="@+id/action_tritoTriminoFragment_to_yperixografimaFragment2"
+            app:destination="@id/yperixografimaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_tritoTriminoFragment_to_eksetaseisFragment"
+            app:destination="@id/eksetaseisFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_tritoTriminoFragment_to_diatrofiFragment"
+            app:destination="@id/diatrofiFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_tritoTriminoFragment_to_sinithiesFragment"
+            app:destination="@id/sinithiesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_tritoTriminoFragment_to_swmaFragment"
+            app:destination="@id/swmaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/action_tritoTriminoFragment_to_simptomataFragment"
+            app:destination="@id/simptomataFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment
+        android:id="@+id/yperixografimaFragment"
+        android:name="com.example.midwiferyv1.fragments.periexomena.YperixografimaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_yperixografima" />
+    <fragment
+        android:id="@+id/eksetaseisFragment"
+        android:name="com.example.midwiferyv1.fragments.periexomena.EksetaseisFragment"
+        android:label=""
+        tools:layout="@layout/fragment_eksetaseis" />
+    <fragment
+        android:id="@+id/diatrofiFragment"
+        android:name="com.example.midwiferyv1.fragments.periexomena.DiatrofiFragment"
+        android:label=""
+        tools:layout="@layout/fragment_diatrofi" />
+    <fragment
+        android:id="@+id/sinithiesFragment"
+        android:name="com.example.midwiferyv1.fragments.periexomena.SinithiesFragment"
+        android:label=""
+        tools:layout="@layout/fragment_sinithies" />
+    <fragment
+        android:id="@+id/swmaFragment"
+        android:name="com.example.midwiferyv1.fragments.periexomena.SwmaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_swma" />
+    <fragment
+        android:id="@+id/simptomataFragment"
+        android:name="com.example.midwiferyv1.fragments.periexomena.SimptomataFragment"
+        android:label=""
+        tools:layout="@layout/fragment_simptomata" />
+</navigation>

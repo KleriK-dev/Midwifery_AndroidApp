@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- White theme colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="pink_2">#FA43FF</color><!-- #FF6200EE -->
+    <color name="pink_1">#F8A9FA</color><!-- #FF3700B3 -->
+    <color name="pink_3">#FC87FF</color>
+
+    <!-- Dark theme colors -->
+    <color name="dark_pink_1">#CD25D1</color>
+    <color name="dark_pink_2">#A506AA</color>
+
+    <!-- Basic colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

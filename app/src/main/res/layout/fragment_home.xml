@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".fragments.mainFragments.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/periodosRightBox"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/box_left"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:elevation="20dp"/>
+
+    <TextView
+        android:id="@+id/triminoRightBox"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/box_left"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="@+id/periodosRightBox"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/periodosRightBox"
+        app:layout_constraintTop_toBottomOf="@+id/periodosRightBox"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:elevation="20dp"/>
+
+    <TextView
+        android:id="@+id/numMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#8107F8"
+        android:shadowRadius="10"
+        android:text="6-10 εβδ."
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/triminoText"
+        app:layout_constraintStart_toStartOf="@+id/triminoText"
+        app:layout_constraintTop_toBottomOf="@+id/triminoText"
+        android:elevation="20dp"/>
+
+    <TextView
+        android:id="@+id/triminoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#8107F8"
+        android:shadowRadius="5"
+        android:text="Τρίμηνο:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastDate"
+        android:elevation="20dp"/>
+
+    <TextView
+        android:id="@+id/currentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#8107F8"
+        android:shadowRadius="10"
+        android:text="04/04/2022"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/currentDateText"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/currentDateText"
+        app:layout_constraintTop_toBottomOf="@+id/currentDateText" />
+
+    <TextView
+        android:id="@+id/currentDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#8107F8"
+        android:shadowRadius="5"
+        android:text="Σημερινή Ημερομηνία:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#8107F8"
+        android:shadowRadius="10"
+        android:text="04/04/2022"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/lastPeriodDate"
+        app:layout_constraintStart_toStartOf="@+id/lastPeriodDate"
+        app:layout_constraintTop_toBottomOf="@+id/lastPeriodDate"
+        android:elevation="20dp"/>
+
+    <TextView
+        android:id="@+id/lastPeriodDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#8107F8"
+        android:shadowRadius="5"
+        android:text="Τελευταία Περίοδος:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

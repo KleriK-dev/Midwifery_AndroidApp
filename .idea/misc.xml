@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/box.xml" value="0.33" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/box_left.xml" value="0.3455" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/ctr_bg.xml" value="0.3455" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.3675" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.3675" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.3455" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.3455" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/layout_bg.xml" value="0.3455" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/drawable/selectable_item_background.xml" value="0.3455" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/activity_date_picker.xml" value="0.3009833262077811" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/activity_main.xml" value="0.3009833262077811" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/activity_splashscreen.xml" value="0.30434782608695654" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_deftero_trimino.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_diatrofi.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_eksetaseis.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_home.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_months.xml" value="0.3009833262077811" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_periexomena_prwto.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_prwto_trimino.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_simptomata.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_sinithies.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_swma.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_trito_trimino.xml" value="0.33" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/layout/fragment_yperixografima.xml" value="0.32592592592592595" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/AndroidStudioProjects/MidwiferyV1/app/src/main/res/xml/root_preferences.xml" value="0.32592592592592595" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
